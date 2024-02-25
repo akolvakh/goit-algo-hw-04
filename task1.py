@@ -46,7 +46,7 @@ def sort_insertion(lst):
     return lst
 
 def output(algorithm_name, sample_size, execution_time):
-    print(f"{algorithm_name} ({sample_size} samples): {execution_time:.6f} seconds")
+    print(f"{algorithm_name} ({sample_size} ітерацій): {execution_time:.6f} секунд")
 
 ## 1000 Ітерацій
 output(
