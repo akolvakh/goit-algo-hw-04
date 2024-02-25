@@ -64,7 +64,8 @@ output(
 output(
     "TimSort", 
     1000, 
-    timeit("sorted(lst_1000)", globals=globals(), number=1))
+    timeit("sorted(lst_1000)", globals=globals(), number=1)
+)
 
 ## 10000 Ітерацій
 
@@ -82,7 +83,8 @@ output(
 
 output("TimSort", 
        10000, 
-       timeit("sorted(lst_10000)", globals=globals(), number=1))
+       timeit("sorted(lst_10000)", globals=globals(), number=1)
+)
 
 ## 100000 Ітерацій
 
